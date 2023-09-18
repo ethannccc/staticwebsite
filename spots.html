@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan's Website</title>
+    <link href="spots.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <nav> 
+        <ul class="links">  
+            <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Best Spots in NYC</h1>
+        <h2>Food, fun, and sports!</h2>
+
+        <br></br>
+        <br></br>
+
+        <p>Great Food Spots</p> 
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>Location</th>
+                <th>Price</th>
+                <th>Service</th>
+            </tr>
+            <tr>
+                <th>Shu Jiao Fu Zhou</th>
+                <td>Grand Ave, Chinatown</td>
+                <td>Very affordable ($3-$10)</td>
+                <td>Simple, quick, and easy!</td>
+            </tr>
+            <tr>
+                <th>KPot</th>
+                <td>Various Locations</td>
+                <td>AYCE ($20-$30)</td>
+                <td>Simple and customizable!</td>
+            </tr>
+            <tr>
+                <th>Kookoo Chicken</th>
+                <td>Maspeth, Queens</td>
+                <td>Affordable ($10-$20)</td>
+                <td>Friendly and tasty!</td>
+            </tr>
+        </table>
+        <div class="images"><img src="images/kpot.jpg"></div>
+
+        <p>Great Hangout Spots</p>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>Location</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <th>Mini Golf</th>
+                <td>Pier 25 Manhattan</td>
+                <td>Affordable ($10)</td>
+                <td>18 hole golf course!</td>
+            </tr>
+            <tr>
+                <th>Melody Lanes</th>
+                <td>37th St, Brooklyn</td>
+                <td>Affordable ($20 per)</td>
+                <td>Quick, easy, with drinks and arcade</td>
+            </tr>
+            <tr>
+                <th>Pier 2</th>
+                <td>Pier 2, Dumbo</td>
+                <td>Free!</td>
+                <td>Perfect for sports day with friends!</td>
+            </tr>
+        </table>
+        <div class="images"><img src="images/pier2.jpg"></div>
+
+        <form action="submit.php" method="POST">
+            <h2>Share Your Favorite Spots!</h2>
+            <label for="spot">Spot Name:</label>
+            <input type="text" id="spot" name="spot" required>
+    
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+    
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+<footer> <!--footer for the copyright symbol-->
+    <p>© 2023 Ethan Chen. All rights reserved.</p>
+</footer>
+</html>

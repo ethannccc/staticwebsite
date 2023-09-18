@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(154, 154, 154);
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  color: rgb(250, 250, 250);
+  font-size: 23px;
+  font-weight: 400;
+  background-color: #d4c9eb;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+nav {
+  background-color: #beb2d7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+img {
+  margin: 2rem;
+  width: 45%;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #9685c1;
+}
+
+li {
+  color: rgb(250, 250, 250);
+  margin-left: 4rem;
+  font-size: 20px;
+  padding: 3px;
+}
+
+footer p {
+  font-size: 20px;
+  background-color: #beb2d7;
+  padding: 1.5rem;
+  border-radius: 0rem;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+}
+
+.links li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.links a:hover {
+  color: #9685c1;
+  transform: 0.2s;
+}
+
+.content {
+  margin: 5rem;
+}
+
+.funfacts {
+  background-color: #d4c9eb;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+}
+
+.funfacts p {
+  font-size: 30px;
+  font-weight: 500;
+}
